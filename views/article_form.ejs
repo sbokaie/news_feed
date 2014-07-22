@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>Daily Planet Homepage</h1>
+	<h2>Articles Log</h2>
+	<form method="post" action="/articles">
+		<input placeholder="Title" name="article[title]"><br>
+		<input placeholder="Date" name="article[date]"><br>
+		<textarea placeholder="Content" name="article[content]">
+		</textarea><br>
+		<button>Submit Article</button><br>
+		<a href="/views/about.ejs">About Us</a><br>
+		<a href="/views/contact.ejs">Contact Us</a><br>
+	</form>
+</body>
+</html>
